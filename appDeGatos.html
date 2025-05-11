@@ -36,7 +36,10 @@
     <img src="./imagen/0972e0dfcc0d571ab403d5a6c813ba8a.jpg" alt="Varios gatos">
 
     <form action="/enviar-respuesta">
-      <input type="text" placeholder="URL de la foto de tu gato">
+      <label for="interior"><input type="radio" name="interior-exterior" id="interior">Interior</label>
+      <label for="exterior"><input type="radio" name="interior-exterior" id="exterior">Exterior</label>
+
+      <input type="text" placeholder="URL de la foto de tu gato" required>
       <button type="submit">Enviar</button>
     </form>
 
