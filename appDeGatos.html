@@ -36,10 +36,15 @@
     <img src="./imagen/0972e0dfcc0d571ab403d5a6c813ba8a.jpg" alt="Varios gatos">
 
     <form action="/enviar-respuesta">
-      <label for="interior"><input type="radio" name="interior-exterior" id="interior">Interior</label>
-      <label for="exterior"><input type="radio" name="interior-exterior" id="exterior">Exterior</label>
-
-      <input type="text" placeholder="URL de la foto de tu gato" required>
+      <!-- Botones de Radio -->
+      <label for="interior"><input type="radio" name="interior-exterior" id="interior">Interior</label><br>
+      <label for="exterior"><input type="radio" name="interior-exterior" id="exterior">Exterior</label><br>
+      <!-- Casilla de Verificación-->
+       <label for="carinoso"><input type="checkbox" name="personalidad" id="carinoso">Cariñoso</label>
+       <label for="perezoso"></label><input type="checkbox" name="personalidad" id="perezoso">Perezoso</label>
+       <label for="energico"></label><input type="checkbox" name="personalidad" id="energico">Enérgico</label>
+      <!-- Texto y Botón Enviar -->
+      <input type="text" placeholder="URL de la foto de tu gato" required><br>
       <button type="submit">Enviar</button>
     </form>
 
